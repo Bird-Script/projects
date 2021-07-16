@@ -1,0 +1,14 @@
+VAR num = INPUT_INT("ENTER A NUMBER >>")
+
+FUN prompt()
+	PRINT("Multiplication table Of " + STR(num))
+	PRINT("==============")
+END
+
+prompt()
+
+FOR i = 1 TO 11 THEN
+	VAR res = num*i
+	PRINT(res)
+END
+
